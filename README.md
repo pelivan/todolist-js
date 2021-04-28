@@ -1,2 +1,2 @@
 # todolist-js
-ToDoList created with HTML,CSS and JavaScript.
+TodoList created using HTML,CSS and JavaScript

@@ -1,0 +1,52 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+    max-width: 400px;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+  
+
+ul li.checked::before {
+    content: '';
+    position: center;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+
+.todos{
+    background: #423a6f;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
